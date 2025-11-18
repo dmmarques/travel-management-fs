@@ -3,7 +3,8 @@ spring:
     name: travel-management-ms
   data:
     mongodb:
-      uri: mongodb+srv://dmmarques:admin123@democluster.eyl6f4y.mongodb.net/trips
+      uri: mongodb://mongo:lAdtzaifIvqxhUOleNWUEGeCuegFylXy@yamabiko.proxy.rlwy.net:18303
+      database: trips
       #uri: mongodb://localhost:27017/trips
 
 server:
