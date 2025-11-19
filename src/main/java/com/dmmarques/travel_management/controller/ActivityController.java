@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @CrossOrigin(
-    origins = {"http://localhost:3000", "http://127.0.0.1:3000"},
+    origins = {"http://localhost:3000", "http://127.0.0.1:3000", "https://travel-buddy-fe-a6cz.vercel.app"},
     allowCredentials = "true"
 )
 @RestController

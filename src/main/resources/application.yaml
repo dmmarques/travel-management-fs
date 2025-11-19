@@ -5,7 +5,6 @@ spring:
     mongodb:
       uri: ${MONGO_PUBLIC_URL}
       database: trips
-      #uri: mongodb://localhost:27017/trips
 
 server:
   servlet:
