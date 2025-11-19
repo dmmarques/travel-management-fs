@@ -11,7 +11,6 @@ import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -26,10 +25,6 @@ import java.net.URI;
 import java.util.List;
 
 
-@CrossOrigin(
-    origins = {"http://localhost:3000", "http://127.0.0.1:3000", "https://travel-buddy-fe-a6cz.vercel.app"},
-    allowCredentials = "true"
-)
 @RestController
 @RequestMapping("/trips")
 @RequiredArgsConstructor
