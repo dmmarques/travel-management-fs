@@ -7,6 +7,7 @@ import lombok.Setter;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
+import java.util.List;
 
 @Getter
 @Setter
@@ -17,4 +18,5 @@ public class PartialTripDto {
     private LocalDate startDate;
     private LocalDate endDate;
     private BigDecimal budget;
+    private List<String> preferenceList;
 }

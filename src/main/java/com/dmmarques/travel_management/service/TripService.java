@@ -102,7 +102,7 @@ public class TripService {
                 partialTripDto.getStartDate() != null ? partialTripDto.getStartDate() : trip.startDate(),
                 partialTripDto.getEndDate() != null ? partialTripDto.getEndDate() : trip.endDate(),
                 trip.participantUsernames(),
-                trip.preferences(),
+                partialTripDto.getPreferenceList() != null ? partialTripDto.getPreferenceList() : trip.preferences(),
                 trip.accommodations(),
                 trip.activityList(),
                 trip.travelList(),
