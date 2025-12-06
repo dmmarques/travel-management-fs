@@ -287,6 +287,7 @@ class TripServiceTest {
         private LocalDate startDate;
         private LocalDate endDate;
         private List<String> participants;
+        private List<String> preferences;
         private List<Accommodation> accommodations;
         private List<Activity> activities;
         private List<Travel> travels;
@@ -300,6 +301,7 @@ class TripServiceTest {
         TripBuilder withStartDate(LocalDate startDate) { this.startDate = startDate; return this; }
         TripBuilder withEndDate(LocalDate endDate) { this.endDate = endDate; return this; }
         TripBuilder withParticipants(List<String> participants) { this.participants = participants; return this; }
+        TripBuilder withPreferences(List<String> preferences) { this.preferences = preferences; return this; }
         TripBuilder withAccommodations(List<Accommodation> accommodations) { this.accommodations = accommodations; return this; }
         TripBuilder withActivities(List<Activity> activities) { this.activities = activities; return this; }
         TripBuilder withTravels(List<Travel> travels) { this.travels = travels; return this; }
@@ -307,7 +309,7 @@ class TripServiceTest {
 
         Trip build() {
             return new Trip(id, name, description, creatorUsername, creationDate, startDate, endDate,
-                participants, accommodations, activities, travels, budget);
+                participants, preferences, accommodations, activities, travels, budget);
         }
     }
 }

@@ -293,6 +293,6 @@ class TripControllerTest {
     private Trip sampleTrip(String id) {
         return new Trip(id, "Trip", "Desc", "john", LocalDateTime.now(),
             LocalDate.now(), LocalDate.now().plusDays(3), List.of("john"),
-            new ArrayList<>(), new ArrayList<>(), new ArrayList<>(), BigDecimal.ZERO);
+            new ArrayList<>(), new ArrayList<>(), new ArrayList<>(), new ArrayList<>(), BigDecimal.ZERO);
     }
 }

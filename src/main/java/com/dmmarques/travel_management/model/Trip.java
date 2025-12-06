@@ -22,6 +22,8 @@ public record Trip(@Id String id,
                    @NotNull LocalDate endDate,
                    List<String> participantUsernames,
                    @NotNull
+                   List<String> preferences,
+                   @NotNull
                    List<Accommodation> accommodations,
                    @NotNull
                    List<Activity> activityList,
