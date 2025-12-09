@@ -73,6 +73,7 @@ class TripControllerTest {
             "\"startDate\":\"" + LocalDate.now() + "\"," +
             "\"endDate\":\"" + LocalDate.now().plusDays(3) + "\"," +
             "\"participantUsernames\":[\"john\"]," +
+            "\"preferences\":[]," +
             "\"accommodations\":[]," +
             "\"activityList\":[]," +
             "\"travelList\":[]," +
@@ -146,6 +147,7 @@ class TripControllerTest {
             "\"startDate\":\"" + LocalDate.now() + "\"," +
             "\"endDate\":\"" + LocalDate.now().plusDays(3) + "\"," +
             "\"participantUsernames\":[\"john\"]," +
+            "\"preferences\":[]," +
             "\"accommodations\":[]," +
             "\"activityList\":[]," +
             "\"travelList\":[]," +
